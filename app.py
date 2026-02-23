@@ -25,7 +25,7 @@ st.markdown("""
 # --- CONEXÃO COM DADOS ---
 # Substitua pelo link da sua planilha privada (após configurar o Secrets no Streamlit)
 # Ou use o link 'Publicado como CSV' para teste rápido
-URL_PLANILHA = "https://docs.google.com/spreadsheets/d/1s-s0We_XaTyVIv5LwaJ4PvmXkxi2EsNzP2JsR97n94k/edit"
+URL_PLANILHA = "https://docs.google.com/spreadsheets/d/1s-s0We_XaTyVIv5LwaJ4PvmXkxi2EsNzP2JsR97n94k/export?format=csv"
 
 @st.cache_data(ttl=600)
 def carregar_dados():
